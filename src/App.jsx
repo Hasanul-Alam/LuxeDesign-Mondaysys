@@ -12,9 +12,9 @@ function App() {
     <div className="">
       <Header />
       <Banner />
-      {/* <OurWork />
+      <OurWork />
       <FusionDesignHub />
-      <AwardsAndPress />
+      {/* <AwardsAndPress />
       <Clients />
       <Footer /> */}
     </div>
