@@ -14,8 +14,8 @@ function App() {
       <Banner />
       <OurWork />
       <FusionDesignHub />
-      {/* <AwardsAndPress />
-      <Clients />
+      <AwardsAndPress />
+      {/* <Clients />
       <Footer /> */}
     </div>
   );

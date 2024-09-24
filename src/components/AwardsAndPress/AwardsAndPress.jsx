@@ -1,12 +1,12 @@
 const AwardsAndPress = () => {
   return (
     <div style={{ backgroundColor: "#191919" }} className="text-white py-16">
-      <div className="w-[65%] mx-auto">
-        <h2 className="text-8xl">Awards & Press</h2>
+      <div className="w-[65%] mx-auto max-md:w-[95%]">
+        <h2 className="text-8xl max-md:text-5xl max-md:text-center">Awards & Press</h2>
 
         {/* Cards */}
-        <div className="w-[80%] mx-auto flex justify-between gap-16 mt-16">
-          <div className="w-[25%]">
+        <div className="w-[80%] mx-auto flex justify-between gap-16 mt-16 max-md:block">
+          <div className="w-[25%] max-md:w-[70%] max-md:mx-auto max-md:mt-16">
             <img
               src="https://i.ibb.co.com/6NY0wvW/Screenshot-2024-09-24-190822.png"
               alt=""
@@ -21,7 +21,7 @@ const AwardsAndPress = () => {
               application.
             </a>
           </div>
-          <div className="w-[25%]">
+          <div className="w-[25%] max-md:w-[70%] max-md:mx-auto max-md:mt-16">
             <img
               src="https://i.ibb.co.com/h9sJFfY/Screenshot-2024-09-24-190900.png"
               alt=""
@@ -32,24 +32,24 @@ const AwardsAndPress = () => {
               2030
             </p>
             <a href="#" className="text-4xl underline">
-              Add title of article here
+            Add title of article here
             </a>
           </div>
-          <div className="w-[25%]">
+          <div className="w-[25%] max-md:w-[70%] max-md:mx-auto max-md:mt-16">
             <img
               src="https://i.ibb.co.com/dKnFPN4/Screenshot-2024-09-24-190915.png"
               alt=""
             />
             <p className="text-lg font-semibold">
-              Awards — Nov 24,
+              Press — Jan 03,
               <br />
               2030
             </p>
             <a href="#" className="text-4xl underline">
-              Fusion Design Hub wins Agency of the Year
+            Fusion Design Hub wins Agency of the Year
             </a>
           </div>
-          <div className="w-[25%]">
+          <div className="w-[25%] max-md:w-[70%] max-md:mx-auto max-md:mt-16">
             <img
               src="https://i.ibb.co.com/nLhYKcR/Screenshot-2024-09-24-190930.png"
               alt=""
@@ -60,7 +60,7 @@ const AwardsAndPress = () => {
               2030
             </p>
             <a href="#" className="text-4xl underline">
-              Add title of article here
+            Add title of article here
             </a>
           </div>
         </div>
