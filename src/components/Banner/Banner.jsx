@@ -1,12 +1,13 @@
 const Banner = () => {
   return (
-    <div className="bg-black text-white py-16">
+    <div style={{backgroundColor: '#191919'}} className="text-white py-16">
       <div className="w-[65%] mx-auto max-md:w-[95%]">
         <div className="grid grid-cols-2 gap-4 flex justify-between justify-center items-center max-md:block">
           <div className="">
             <h2 className="text-8xl max-md:text-5xl">
               About <br /> LuxeDesign
             </h2>
+            <img className="mt-10" src="https://i.ibb.co.com/3RK8rg7/Screenshot-2024-09-24-225158.png" alt="" />
             <p className="text-xl my-10">
               Established back in the rad 90s, LuxeDesign has been the go-to
               guru for a smorgasbord of design delights. Whether you need a
