@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import FusionDesignHub from "./components/FusionDesignHub/FusionDesignHub";
 import Header from "./components/Header/Header";
 import OurWork from "./components/OurWork/OurWork";
+import VisionaryVibes from "./components/VisionaryVibes/VisionaryVibes";
 
 function App() {
   return (
@@ -13,10 +14,11 @@ function App() {
       <Header />
       <Banner />
       <OurWork />
+      <VisionaryVibes />
       <FusionDesignHub />
       <AwardsAndPress />
-      {/* <Clients />
-      <Footer /> */}
+      <Clients />
+      <Footer />
     </div>
   );
 }

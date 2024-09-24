@@ -27,14 +27,14 @@ const Clients = () => {
   ];
   return (
     <div style={{ backgroundColor: "#d8d8d8" }} className="py-16">
-      <div className="w-[65%] mx-auto">
-        <h2 className="text-8xl">Our Clients</h2>
+      <div className="w-[65%] mx-auto max-md:w-[95%]">
+        <h2 className="text-8xl max-md:text-6xl max-md:text-center">Our Clients</h2>
 
         {/* Clients Images */}
-        <div className="grid grid-cols-4 justify-center items-center gap-6 mt-32">
+        <div className="grid grid-cols-4 justify-center items-center gap-6 mt-32 max-md:grid-cols-1">
           {imgLinks.map((imgLink) => (
-            <div key={imgLink.link}>
-              <img src={imgLink.link} alt="" />
+            <div key={imgLink.link} className="max-md:mt-16">
+              <img className="max-md:mx-auto" src={imgLink.link} alt="" />
             </div>
           ))}
         </div>
