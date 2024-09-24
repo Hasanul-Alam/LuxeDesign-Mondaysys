@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div className=" w-[70%] mx-auto py-10 max-md:w-[95%] max-md:py-5">
       {/* Header Top Section */}
-      <div className="flex justify-center justify-between max-md:block">
+      <div className="flex justify-between max-md:block">
         <div>
           <img
             className="max-md:mx-auto"
@@ -10,10 +10,11 @@ const Header = () => {
             alt="Logo"
           />
         </div>
-        <div>
-          <h1 className="text-8xl max-md:text-4xl max-md:my-8 max-md:font-semibold">
+        <div className="flex items-start max-md:my-8">
+          <h1 className="text-8xl max-md:text-4xl max-md:font-semibold">
             Shaping the <br /> Future through <br /> Design.
           </h1>
+          <img src="https://luxedesign.my.canva.site/images/9c7e14cef04102f7d0b49153044be290.svg" alt="description" className="rotate-90 w-[40px] max-md:w-[15px]" />
         </div>
         <div>
           <button className="border border-2 border-black p-3 px-14 text-2xl rounded-full max-md:mx-auto max-md:block">

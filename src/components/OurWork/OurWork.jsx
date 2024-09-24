@@ -6,9 +6,12 @@ const OurWork = () => {
     <div className="py-10">
       {/* All Images */}
       <div className="w-[65%] mx-auto max-md:w-[95%]">
-        <h2 className="text-8xl mt-10 mb-32 font-serif Georgia font-light max-md:text-7xl max-md:text-center">
+        <div className="flex justify-between max-md:block">
+        <h2 className="text-8xl mt-10 mb-32 font-serif Georgia font-light max-md:text-7xl max-md:text-center max-md:mb-10">
           Our Work
         </h2>
+        <img src="https://luxedesign.my.canva.site/images/9c7e14cef04102f7d0b49153044be290.svg" alt="description" className="rotate-180 w-[40px] max-md:mx-auto max-md:mb-10" />
+        </div>
         <div className="flex justify-between max-md:block">
           <div>
             <img
