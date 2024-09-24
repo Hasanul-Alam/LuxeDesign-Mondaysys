@@ -24,8 +24,8 @@ This project was undertaken as part of a task assigned by Mondaysys. The objecti
 ## Technologies Used
 - **HTML5** for semantic structure.
 - **CSS3** for styling, including responsive media queries.
-- **JavaScript/React** (if applicable).
-- **Tailwind CSS** for utility-first styling (if applicable).
+- **React**.
+- **Tailwind CSS** for utility-first styling.
 - **Git** for version control.
 - **GitHub** for repository management and code hosting.
 
