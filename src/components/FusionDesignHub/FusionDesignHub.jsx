@@ -1,3 +1,4 @@
+import { FaArrowRightLong } from "react-icons/fa6";
 import CommonLayout from "../Shared/CommonLayout";
 
 const FusionDesignHub = () => {
@@ -70,8 +71,8 @@ const FusionDesignHub = () => {
       <div className="grid grid-cols-3 gap-8 max-md:grid-cols-1">
         {buttonTexts.map((buttonText) => (
           <div key={buttonText.buttonName}>
-            <button className="border border-2 border-black rounded-full w-full py-5 text-2xl">
-              {buttonText.buttonName}
+            <button className="border border-2 border-black rounded-full w-full py-5 text-2xl flex justify-center items-center">
+              {buttonText.buttonName} <span className="font-light ms-3 text-sm mt-1"><FaArrowRightLong /></span>
             </button>
           </div>
         ))}
