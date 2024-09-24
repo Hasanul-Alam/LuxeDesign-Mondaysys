@@ -1,6 +1,6 @@
 const AwardsAndPress = () => {
   return (
-    <div className="bg-black text-white py-16">
+    <div style={{ backgroundColor: "#191919" }} className="text-white py-16">
       <div className="w-[65%] mx-auto">
         <h2 className="text-8xl">Awards & Press</h2>
 

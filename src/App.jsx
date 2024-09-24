@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="">
       <Header />
-      <Banner />
+      {/* <Banner />
       <OurWork />
       <FusionDesignHub />
       <AwardsAndPress />
       <Clients />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
