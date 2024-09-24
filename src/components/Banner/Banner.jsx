@@ -1,10 +1,10 @@
 const Banner = () => {
   return (
     <div className="bg-black text-white py-16">
-      <div className="w-[65%] mx-auto">
-        <div className="grid grid-cols-2 gap-4 flex justify-between justify-center items-center">
+      <div className="w-[65%] mx-auto max-md:w-[95%]">
+        <div className="grid grid-cols-2 gap-4 flex justify-between justify-center items-center max-md:block">
           <div className="">
-            <h2 className="text-8xl">
+            <h2 className="text-8xl max-md:text-5xl">
               About <br /> LuxeDesign
             </h2>
             <p className="text-xl my-10">

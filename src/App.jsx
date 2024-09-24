@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="">
       <Header />
-      {/* <Banner />
-      <OurWork />
+      <Banner />
+      {/* <OurWork />
       <FusionDesignHub />
       <AwardsAndPress />
       <Clients />
