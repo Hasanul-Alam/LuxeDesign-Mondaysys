@@ -16,7 +16,7 @@ const Header = () => {
           </h1>
         </div>
         <div>
-          <button className="border border-2 border-black rounded-lg p-3 px-14 text-2xl rounded-full">
+          <button className="border border-2 border-black p-3 px-14 text-2xl rounded-full">
             Work With Us
           </button>
         </div>
